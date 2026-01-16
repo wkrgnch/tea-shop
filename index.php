@@ -18,21 +18,6 @@ $items = $res ? $res->fetch_all(MYSQLI_ASSOC) : [];
             <a class="btn" href="store.php">Открыть магазин</a>
             <a class="btn ghost" href="#overview">Смотреть обзор</a>
         </div>
-
-        <div class="mini-cards">
-            <div class="card">
-            <b>Информативно</b>
-            <p class="muted">Есть описание магазина и обзор ассортимента.</p>
-            </div>
-            <div class="card">
-            <b>Функционально</b>
-            <p class="muted">Авторизация, список покупок, форма обратной связи.</p>
-            </div>
-            <div class="card">
-            <b>Современно</b>
-            <p class="muted">Аккуратные отступы, сетка, адаптив.</p>
-            </div>
-        </div>
         </div>
 
         <div class="slider">

@@ -45,6 +45,13 @@
         viewCards.classList.remove("hidden");
         viewTable.classList.add("hidden");
     });
+
+      // На маленьких экранах сразу показываем карточки
+    if (window.innerWidth < 860) {
+    viewCards.classList.remove("hidden");
+    viewTable.classList.add("hidden");
+    }
+
 })();
 
 // добавить или убрать из списка желаний
